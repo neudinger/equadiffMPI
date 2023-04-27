@@ -19,7 +19,7 @@ Hybrid computation with multiple parallel computation level :
 Usage of [HWLOC](https://www.open-mpi.org/projects/hwloc/) to gather hierarchical topology and specified thread core process binding.
 
 Boost was used for program_options.
-The cmake will download build program_options if boost is not found.
+The cmake will download and build program_options only if boost is not found.
 Only this library will be linked to reduce the library loading overhead.
 
 ## Cartesian split
