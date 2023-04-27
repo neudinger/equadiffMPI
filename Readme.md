@@ -66,7 +66,7 @@ mpirun \
 
 ---
 
-C++ 17 was used due to usage of string_view.\
+C++ 17 was used due to usage of string_view and initializer_list.\
 MPI for distributed layer.\
 OpenMP for multithreading purpose.
 
